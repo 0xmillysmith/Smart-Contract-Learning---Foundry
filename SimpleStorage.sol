@@ -24,10 +24,9 @@ contract SimpleStorage {
     // Person public  Collins= Person({favouriteNumber: 14, name: "collins"}); 
 //the 1st Method is kind of tedious so we use 2nd method 
 
-//2nd Method - Array Method 
-
 mapping (string => uint256) public nameToFavouriteNumber; // MAPPING is DSA Used to 'Find' Data randomly fast from an array of list
 
+//2nd Method - Array Method 
 
 Person[] public listOfPerson; // this Empty [] so we to create a function to ADD to it 
 
